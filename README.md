@@ -53,7 +53,7 @@ conda activate TED
 This will install all dependencies described in our `environment.yml` file.
 
 ### Swin-B
-To download the weights of the Swin-B network, refer to [Swin-B](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_base_patch244_window877_kinetics400_22k.pth)  and then put in `checkpoint/swin`
+To download the weights of the Swin-B network, refer to [Link](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_base_patch244_window877_kinetics400_22k.pth)  and then put in `checkpoint/swin`
 
 
 ### NLP Metrics
