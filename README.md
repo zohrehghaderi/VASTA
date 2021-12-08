@@ -15,12 +15,12 @@ It contains the following sections:
 To start you need to clone this repository and `cd` into the root directory.
 
 ```bash
-git clone /cvpr-ID10840/CVPR2022_submission_10840
+git clone https://github.com/cvpr-ID10840/CVPR2022_submission_10840.git
 cd CVPR2022_submission_10840
 ```
 
 ## Data Download
-We show results on two datasets MSVD and MSR-VTT. We provide output of our adaptive frame selection method in `data\dataset_name\index_32` and ralated lables in sematics network are in `data\dataset_name\tag`. As well, normalized captions are `data\dataset_name\file.pickle`. For using this code, it is important to download videos of both dataset and put in `data\dataset_name\videos`. For example, msvd dataset is following this tree:
+We show results on two datasets MSVD and MSR-VTT. We provide output of our adaptive frame selection method in `data\dataset_name\index_32` and ralated lables in sematics network are in `data\dataset_name\tag`. As well, normalized captions are `data\dataset_name\file.pickle`. For using this code, it is important to download videos of both dataset and put in `data\dataset_name\videos`. For example, MSVD dataset is following this tree:
 ```bash
 
 data
@@ -37,22 +37,23 @@ data
        |-val_data.pickle       \\ val video name and related caption
 ```
 ### MSVR
-To download MSVD [a link](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)
+To download MSVD, follow this [link](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)
 
 ### MSR-VTT
-To download MSR-VTT [a link](https://www.mediafire.com/folder/h14iarbs62e7p/shared)
+To download MSR-VTT, follow this [link](https://www.mediafire.com/folder/h14iarbs62e7p/shared)
 
 
-## equirements and Setup
+## Requirements and Setup
 To run our coda, create a conda environment with this command.
 
 ```bash
-conda env update -f environment.yml
+conda env update -f environment.yml -n TED
+conda activate TED
 ```
 This will install all dependencies described in our `environment.yml` file.
 
 ### Swin-B
-to download  refer to [Swin-B](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_base_patch244_window877_kinetics400_22k.pth)  and then put in `checkpoint/swin`
+To download the weights of the Swin-B network, refer to [Swin-B](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_base_patch244_window877_kinetics400_22k.pth)  and then put in `checkpoint/swin`
 
 
 ### NLP Metrics
