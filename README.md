@@ -1,6 +1,7 @@
 # TED-VC
 
 This repository contains the official implementation to reproduce the results for our TED-VC submission.
+# Abstract
  In order to generate proper captions for videos, the inference needs to identify the relevant concepts in the video and pay attention to both the spatial relationships between them as well as to the temporal development in the clip.
     Many existing methods employ CNN-based architectures to perform the 2D spatial and 3D spatio-temporal analysis of the video input. Given the recent success of transformer architectures for images classification, and, with the Swin Transformer also for action recognition, we propose a novel video captioning system. Our encoder-decoder framework incorporates transformer-based architectures for both parts, an adapted Swin transformer for the spatio-temporal video analysis as well as a BERT decoder for advanced text generation. Both are coupled via cross-attention. The Swin Transformer is fine-tuned to estimate semantic concepts relevant for video captioning. As the memory requirements for both transformers are quite high during training, we introduce an adaptive frame selection scheme to reduce the number of required incoming frames for proper caption generation. The combination of these techniques achieves high-ranking results on the common benchmarks.
 
