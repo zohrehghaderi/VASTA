@@ -15,8 +15,8 @@ It contains the following sections:
 To start you need to clone this repository and `cd` into the root directory.
 
 ```bash
-git clone https://github.com/cvpr-ID10840/CVPR2022_submission_10840.git
-cd CVPR2022_submission_10840
+git clone https://github.com/ECCV7129/ECCV2022_submission_7129.git
+cd ECCV2022_submission_7129
 ```
 
 ## Data Download
