@@ -1,6 +1,6 @@
-# TED-VC
+# VASTA
 
-This repository contains the official implementation to reproduce the results for our TED-VC submission.
+This repository contains the official implementation to reproduce the results for our VASTA submission.
 
 
 ## Table of Contents
