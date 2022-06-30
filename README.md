@@ -2,6 +2,8 @@
 
 This repository contains the official implementation to reproduce the results for our VASTA submission.
 
+![Alt Text](https://thumbs.gfycat.com/FittingOddAnaconda-mobile.mp4)
+
 
 ## Table of Contents
 
