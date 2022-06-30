@@ -2,7 +2,7 @@
 
 This repository contains the official implementation to reproduce the results for our VASTA submission.
 
-![Alt Text](https://thumbs.gfycat.com/FittingOddAnaconda-mobile.mp4)
+![Alt Text](https://github.com/GCPR36/GCPR2022_submission_36/blob/master/VASTA-Model.gif)
 
 
 ## Table of Contents
