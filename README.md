@@ -17,8 +17,8 @@ It contains the following sections:
 To start you need to clone this repository and `cd` into the root directory.
 
 ```bash
-git clone https://github.com/ECCV7129/ECCV2022_submission_7129.git
-cd ECCV2022_submission_7129
+git clone https://github.com/zohrehghaderi/VASTA.git
+cd VASTA
 ```
 
 ## Data Download
