@@ -1,6 +1,6 @@
 # VASTA
 
-This repository contains the official implementation to reproduce the results for our VASTA submission.
+This repository contains the official implementation to reproduce the results for our VASTA accpted GCPR 2022.
 
 ![Alt Text](https://github.com/GCPR36/GCPR2022_submission_36/blob/master/VASTA-Model.gif)
 
