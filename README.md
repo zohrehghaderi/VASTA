@@ -2,6 +2,9 @@
 
 This repository contains the official implementation to reproduce the results for our VASTA: Diverse Video Captioning by Adaptive Spatio-temporal Attention Paper accpted GCPR 2022 [link](https://link.springer.com/chapter/10.1007/978-3-031-16788-1_25). 
 
+## Abstract
+To generate proper captions for videos, the inference needs to identify relevant concepts and pay attention to the spatial relationships between them as well as to the temporal development in the clip. Our end-to-end encoder-decoder video captioning framework incorporates two transformer-based architectures, an adapted transformer for a single joint spatio-temporal video analysis as well as a self-attention-based decoder for advanced text generation. Furthermore, we introduce an adaptive frame selection scheme to reduce the number of required incoming frames while maintaining the relevant content when training both transformers. Additionally, we estimate semantic concepts relevant for video captioning by aggregating all ground truth captions of each sample. Our approach achieves state-of-the-art results on the MSVD, as well as on the large-scale MSR-VTT and the VATEX benchmark datasets considering multiple Natural Language Generation (NLG) metrics. Additional evaluations on diversity scores highlight the expressiveness and diversity in the structure of our generated captions.
+
 ![Alt Text](https://github.com/GCPR36/GCPR2022_submission_36/blob/master/VASTA-Model.gif)
 
 
