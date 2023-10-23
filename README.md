@@ -133,5 +133,16 @@ To train our best TED-VC model which does not use Adaptive Frame Selection (AFS)
 ## License
 Note that this is a confidential code release only meant for the purpose of reviewing our submission.
 
+## Citing VASTA
+```
+@inproceedings{ghaderi2022diverse,
+  title={Diverse Video Captioning by Adaptive Spatio-temporal Attention},
+  author={Ghaderi, Zohreh and Salewski, Leonard and Lensch, Hendrik PA},
+  booktitle={DAGM German Conference on Pattern Recognition},
+  pages={409--425},
+  year={2022},
+  organization={Springer}
+}
+```
 ## Acknowledgements
 This readme is inspired by https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md.
